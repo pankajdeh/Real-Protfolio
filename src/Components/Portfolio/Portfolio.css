@@ -1,0 +1,83 @@
+.portfolio{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height:70vh;
+}
+
+/*heading*/
+.portfolio span:nth-of-type(1){
+    color: var(--black);
+    font-size:2.5rem;
+    font-weight:bold;
+}
+
+.portfolio span:nth-of-type(2){
+    color: var(--orange);
+    font-size:2.5rem;
+    font-weight:bold;
+}
+
+/*slider*/
+/*  */
+
+
+.portfolio img{
+    width:19rem;
+    filter: drop-shadow(-12px 15px 13px rgba(0,0,0,0.25));
+    border-radius:19px;
+}
+
+.work__section> :nth-child(1){
+    color: var(--title);
+    font-size: 2.5rem;
+    font-weight:bold;
+}
+
+.work__section> :nth-child(2){
+    color: var(--orange);
+    font-size: 1.5rem;
+    font-weight:bold;
+}
+
+
+
+/* ====PROTFOLIOITEM CSS */
+
+.work__card{
+    margin-left: 20px;
+    object-fit: contain;
+    animation: jump 5.7s infinite;
+    position: relative;
+    /* top: 10px; */
+    filter: drop-shadow(2px 10px 20px rgba(255, 255, 255, 0.32));
+    backdrop-filter: blur(10px);
+    border-radius: 18px;
+
+}
+
+
+.i-button{
+    margin-top:20px;
+    margin-bottom:20px;
+    width:5rem;
+    height:2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+  color: black;
+}
+
+
+/* @media screen and (max-width:640px) */
+
+@media screen and (max-width:640){
+    .work__section{
+        /* padding: 40px 1px 1px 1px ; */
+        
+    }
+}
+
+/* work__card */
