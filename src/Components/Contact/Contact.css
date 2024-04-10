@@ -37,3 +37,24 @@ textarea{
     top:1rem;
     left:8rem;
 }
+
+@media screen and (max-width:640px){
+    .contact-form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 10rem;
+        margin-bottom: 10rem;
+    
+    }
+
+    .awesome>:nth-child(2){
+        font-size: 2rem;
+        text-align: center;
+    }
+    .c-right .user{
+            width: 18rem;
+    }
+
+}

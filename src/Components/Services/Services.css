@@ -1,26 +1,31 @@
 .services{
     padding: 0 3rem 0 3rem;
     display: flex;
-    height: 90vh;
-    margin-bottom: 8rem;
-    margin-top: 9rem;
-    margin-bottom: 13rem;
+    gap: 40px;
+
+    height: 100vh;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+
 }
 
 .awesome{
     display: flex;
     flex-direction:column;
     position: relative;
+    padding: 30px;
 }
 
 .awesome> :nth-child(1){
     color: var(--black);
+    text-align: left;
     font-size: 2.5rem;
     font-weight:bold;
 }
 
 .awesome> :nth-child(2){
     color: var(--orange);
+    text-align: left;
     font-size: 2.5rem;
     font-weight:bold;
 }
@@ -28,6 +33,7 @@
 .awesome> :nth-child(3){
     color: var(--gray);
     font-size: 14px;
+    text-align: left;
     font-weight:bold;
     margin-top:1rem;
 }
@@ -41,10 +47,12 @@
 
 .cards{
     position:relative;
+
 }
 
 .cards>*{
     position:absolute;
+
 }
 
 .s-blur2{
@@ -61,19 +69,43 @@
 @media screen and (max-width:640px){
 
     .services{
+        height: 200vh;
         display: flex;
         flex-direction: column;
-        bottom: 130px;
         top: 50px;
         
     }
 
     .awesome{
-        bottom: 30px;
+        display: flex;
+        flex-direction:column;
+        position: relative;
+        padding: 30px;
+        text-align: left;
+    }
+    .awesome> :nth-child(1){
+        color: var(--black);
+        text-align: left;
+        
+    }
+    
+    .awesome> :nth-child(2){
+        text-align: left;
+     
+    }
+    
+    .awesome> :nth-child(3){
+        color: var(--gray);
+        margin-top:1rem;
     }
 
+    
     .cards{
         position:relative;
+        display: flex;
+        /* align-items: center; */
+        /* justify-content: center; */
+        flex-direction: column;
     }
     
     .cards>*{
@@ -81,14 +113,223 @@
     }
 
     .cards>:nth-child(1){
-        margin: -1px -70px;
+        margin: -20px -190px;
+        align-items: center;
+        justify-content: center;
+        
+
     }
     .cards>:nth-child(2){
-        margin: 1px 60px;
+        margin: 100px 80px;
+        align-items: center;
+        justify-content: center;
+
     }
     .cards>:nth-child(3){
-        margin: 20px -60px;
+        margin: 300px -70px;
     }
+
+
+    .s-blur2{
+        left:2rem;
+        top:9rem;
+        z-index: -3;
+    }
+    
+    .s-blur1{
+        top: 13rem;
+        left: -18rem;
+    }
+    
+}
+
+
+
+/* 480 px */
+
+
+@media screen and (max-width:480px){
+
+    .services{
+        display: flex;
+        flex-direction: column;
+        height: 150vh;
+        width: 100%;
+        padding: 0% 20% 0 0%; 
+        margin-top: -100px;
+        margin-bottom: -100px;
+        text-align: center;
+    }
+    .awesome{
+        display: flex;
+        position: relative;
+        text-align: left;
+        flex-direction: column;
+         
+    }
+    .awesome> :nth-child(1){
+        
+        color: var(--black);
+        font-size: 2.2rem;
+        font-weight:bold;
+        text-align: left;
+    }
+    
+.awesome> :nth-child(2){
+    color: var(--orange);
+    flex-direction: column;
+    /* background-color: blue; */
+    margin-left: -120px;
+    text-align: left;
+    font-weight:bold;
+
+}
+
+.awesome> :nth-child(3){
+    color: var(--gray);
+    font-size: 18px;
+    font-weight:bold;
+    margin-top:1rem;
+    width: 380px;
+
+}
+
+.awesome>:nth-child(4){
+    text-align: left;
+    margin-top: 10px;
+
+}
+
+
+    
+.cards{
+    position:relative;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+.cards>*{
+    position:absolute;
+}
+
+.cards>:nth-child(1){
+    margin: 0px -230px;  
+
+}
+.cards>:nth-child(2){
+    margin: 110px 100px;
+    
+
+}
+.cards>:nth-child(3){
+    margin: 310px -150px;
+}
+
+
+
+    .s-blur2{
+        left:2rem;
+        top:9rem;
+        z-index: -3;
+    }
+    
+    .s-blur1{
+        top: 13rem;
+        left: -18rem;
+    }
+    
+}
+
+
+
+/* 360 */
+
+
+
+@media screen and (max-width:360px){
+
+    .services{
+        max-width: fit-content;
+        display: block;
+        flex-direction: column;
+        background-color: aquamarine;
+        height: 200vh;
+        width: 100%;
+        padding: 0%;
+        margin-top: 80px;
+        margin-bottom: 30px;
+        
+    }
+    .awesome{
+        position: relative;
+
+         
+    }
+    .awesome> :nth-child(1){
+        
+        color: var(--black);
+        font-size: 2rem;
+        font-weight:bold;
+        text-align: center;
+    }
+    
+.awesome> :nth-child(2){
+    color: var(--orange);
+    font-size: 2rem;
+    font-weight:bold;
+    /* background-color: blue; */
+    margin-left: -70px;
+
+}
+
+.awesome> :nth-child(3){
+    color: var(--gray);
+    max-width: fit-content;
+    font-size: 15px;
+    font-weight:bold;
+    margin-top:1rem;
+    
+
+}
+
+.awesome>:nth-child(4){
+    text-align: left;
+    margin-top: 10px;
+
+}
+
+
+    
+.cards{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+}
+
+.cards>*{
+    position:absolute;
+}
+
+.cards>:nth-child(1){
+    margin: 0px -290px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    
+
+}
+.cards>:nth-child(2){
+    margin: 110px 100px;
+    /* align-items: center; */
+    /* justify-content: center; */
+
+}
+.cards>:nth-child(3){
+    margin: 310px -210px;
+}
+
 
 
     .s-blur2{

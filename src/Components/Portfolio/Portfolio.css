@@ -80,4 +80,14 @@
     }
 }
 
+@media screen and (max-width:350){
+    .work__section{
+        /* padding: 40px 1px 1px 1px ; */
+        /* display: grid;
+        column-gap: 30px;
+    
+        grid-column: auto; */
+        
+    }
+}
 /* work__card */

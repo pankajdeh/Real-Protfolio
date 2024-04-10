@@ -28,11 +28,13 @@ const Intro = () => {
             <span style={{color: darkMode? 'white': ''}}>Hey! I Am</span>
             <span>Pankaj Dehariya</span>
             <span>Software developer with high level of experience in web designing and development, producing the 
+                Quality work. <br/><br/> Software developer with high level of experience in web designing and development, producing the 
                 Quality work. </span>
+               
                 <button className='button i-button'>Hire Me</button>
                 <div className="i-icons">
-                    <a href=""><img src={Github} alt=""/></a>
-                    <a href=""><img src={Linkdein} alt=""/></a>
+                    <a href="https://github.com/pankajdeh"><img src={Github} alt=""/></a>
+                    <a href="https://www.linkedin.com/in/pankaj-dehariya/"><img src={Linkdein} alt=""/></a>
                     <a href=""><img src={ Instagram} alt=""/></a>
                     
                 </div>

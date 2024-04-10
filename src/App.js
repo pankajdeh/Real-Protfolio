@@ -25,7 +25,7 @@ function App() {
       <Experience/>
       {/* <Works/> */}
       <Portfolio/>
-      <Testimonials/>
+      {/* <Testimonials/> */}
       {/* <ProjectCard
         id = "project"
         className = "odd"
