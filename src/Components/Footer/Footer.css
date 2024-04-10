@@ -22,3 +22,21 @@
     display:flex;
     gap:2rem;
 }
+
+
+@media screen and (max-width:480px) {
+
+    .footer{
+    }
+  
+    .footer img{
+        min-height: 60vh;
+    }
+
+    .f-content{
+        margin-bottom: 3vh;
+        padding-top: 16vw;
+        padding-bottom: 3vw;
+    }
+    
+}

@@ -153,10 +153,10 @@
     .services{
         display: flex;
         flex-direction: column;
-        height: 150vh;
+        height: 225vh;
         width: 100%;
         padding: 0% 20% 0 0%; 
-        margin-top: -100px;
+        margin-top: 90px;
         margin-bottom: -100px;
         text-align: center;
     }

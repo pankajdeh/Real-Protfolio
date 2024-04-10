@@ -58,3 +58,41 @@ textarea{
     }
 
 }
+
+
+
+
+@media screen and (max-width:480px){
+    .contact-form{
+  
+        margin-top: 10rem;
+        margin-bottom: 10rem;
+
+    }
+    .awesome{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width:max-content;
+        position: relative;
+
+    }
+
+    .awesome>:nth-child(1){
+        font-size: 2rem;
+        margin-bottom: 3vw;    
+
+    } 
+
+    .awesome>:nth-child(2){
+        font-size: 2rem;
+        margin-left: 1vw;
+
+      
+    }
+
+    .c-right .user{
+            width: 18rem;
+    }
+
+}
