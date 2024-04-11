@@ -52,3 +52,14 @@
     
     }
 }
+
+@media screen and (max-width:360px){
+
+    .experience{
+        /* max-width: fit-content; */
+        /* background-color: blue; */
+        /* padding: 70px 40px 10px 40px; */
+        /* width: 360px; */
+
+    }
+}

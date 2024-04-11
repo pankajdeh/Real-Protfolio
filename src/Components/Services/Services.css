@@ -151,20 +151,23 @@
 @media screen and (max-width:480px){
 
     .services{
-        display: flex;
+        display: inline-block;
+        align-items: center;
         flex-direction: column;
         height: 225vh;
         width: 100%;
         padding: 0% 20% 0 0%; 
-        margin-top: 90px;
         margin-bottom: -100px;
         text-align: center;
+        position: relative;
+
     }
     .awesome{
         display: flex;
         position: relative;
         text-align: left;
         flex-direction: column;
+
          
     }
     .awesome> :nth-child(1){
@@ -172,16 +175,18 @@
         color: var(--black);
         font-size: 2.2rem;
         font-weight:bold;
-        text-align: left;
+        position: absolute;
+        top: 0;
+        /* left: 0; */
+        margin-left: 28px;
+
     }
     
 .awesome> :nth-child(2){
     color: var(--orange);
-    flex-direction: column;
-    /* background-color: blue; */
-    margin-left: -120px;
-    text-align: left;
     font-weight:bold;
+    display: inline-block;
+    padding: 10px 40px;
 
 }
 
@@ -191,6 +196,7 @@
     font-weight:bold;
     margin-top:1rem;
     width: 380px;
+
 
 }
 
@@ -252,18 +258,20 @@
 
     .services{
         max-width: fit-content;
-        display: block;
+        background-color: aqua;
+        display: flex;
         flex-direction: column;
-        background-color: aquamarine;
         height: 200vh;
-        width: 100%;
-        padding: 0%;
+        width:min-content;
+        padding: -10%;
+        margin-left: -5rem;
         margin-top: 80px;
         margin-bottom: 30px;
         
     }
     .awesome{
         position: relative;
+        
 
          
     }
@@ -286,11 +294,12 @@
 
 .awesome> :nth-child(3){
     color: var(--gray);
-    max-width: fit-content;
+    width: 326px;
     font-size: 15px;
     font-weight:bold;
     margin-top:1rem;
-    
+    margin-left: 10px;
+    padding-left: 2vw ;
 
 }
 
@@ -311,23 +320,22 @@
 
 .cards>*{
     position:absolute;
+
 }
 
 .cards>:nth-child(1){
-    margin: 0px -290px;
+    margin: 0px -410px;
     /* align-items: center; */
     /* justify-content: center; */
     
 
 }
 .cards>:nth-child(2){
-    margin: 110px 100px;
-    /* align-items: center; */
-    /* justify-content: center; */
+    margin: 110px -30px;
 
 }
 .cards>:nth-child(3){
-    margin: 310px -210px;
+    margin: 310px -330px;
 }
 
 
