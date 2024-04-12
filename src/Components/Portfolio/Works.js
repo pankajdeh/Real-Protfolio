@@ -16,6 +16,8 @@ function Works() {
         }
         else{
             const newProjects = projectsData.filter((project) =>{
+                console.log("name: ", item.name)
+                console.log("project: ", project.category)
                 return project.category === item.name;
             })
 
