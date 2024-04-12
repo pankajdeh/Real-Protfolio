@@ -32,7 +32,8 @@
 
 .awesome> :nth-child(3){
     color: var(--gray);
-    font-size: 14px;
+    font-size: 17px;
+    width: 100%;
     text-align: left;
     font-weight:bold;
     margin-top:1rem;
@@ -258,7 +259,7 @@
 
     .services{
         max-width: fit-content;
-        background-color: aqua;
+        /* background-color: aqua; */
         display: flex;
         flex-direction: column;
         height: 200vh;
@@ -271,6 +272,8 @@
     }
     .awesome{
         position: relative;
+        /* margin-top: 25vw; */
+
         
 
          

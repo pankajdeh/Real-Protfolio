@@ -22,9 +22,9 @@ const Services = () => {
         <div className="awesome">
             <span style={{color: darkMode? 'white':''}}>My Awesome</span>
             <span>Services</span>
-            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit <br /> Voluptatum, sed expedita? Nihil nemo.
-            <br/> <br/>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit <br /> Voluptatum, sed expedita? Nihil nemo.</span>
+            <span>We specialize in website design, management, and chatbot services.<br /> Our goal is to empower businesses with compelling online platforms 
+            <br/>
+            and efficient communication tools ensuring their success in the digital world. <br /> Voluptatum, sed expedita? Nihil nemo.</span>
             <a href={Resume} download><button className='button s-button'>Download CV</button></a>
             
             <div className='blur s-blur1' style={{background: "#ABF1FF94"}}></div>
@@ -40,7 +40,7 @@ const Services = () => {
                 <Card
                 emoji = {HeartImoji}
                 heading = {'Website Development'}
-                detail = {"Figma, Canva, Sketch, Photoshop, Capcut"}
+                detail = {"HTML5,CSS3, JavaScript, React, Nodejs, MongoDb and Express, Wordpress,etc"}
                 />
               </motion.div>
 
@@ -53,8 +53,8 @@ const Services = () => {
               style={{top: "12rem",left:'-4rem'}}>
                 <Card
                 emoji = {Glasses}
-                heading = {'Website Management'}
-                detail = {"C++, HTML5,CSS3, JavaScript, React, Nodejs, MongoDb and Express"}
+                heading = {'Website Design'}
+                detail = {"Figma, Canva, Photoshop, Wix web Design, etc"}
                 />
               </motion.div>
 
@@ -68,8 +68,8 @@ const Services = () => {
                style={{top: "19rem",left:'12rem'}}>
                 <Card
                 emoji = {Humble}
-                heading = {'Copywriting'}
-                detail = {"cached modules 1.41 MiB (javascript) 250 KiB (asset) [cached] 126 modules"}
+                heading = {'ChatBots'}
+                detail = {"Highlevel, Voiceflow, Botpress, etc"}
                 />
               </motion.div>
               <div className='blur s-blur2' style={{background:"var(--purple)"}}></div>
